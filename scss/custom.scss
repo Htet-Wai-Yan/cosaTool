@@ -1,0 +1,385 @@
+.btn {
+  padding: 1rem !important; 
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// bolier plate
+*{
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+
+// remove default margin
+h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+}
+
+// common styles
+h1{
+  font-size: 60px;
+}
+h2{
+  font-size: 45px;
+  padding: 20px 0;
+}
+h3{
+  font-size: 30px;
+}
+h4{
+  font-size: 24px;
+}
+h5{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.hashtag{
+  color: grey;
+}
+p{
+  padding: 20px 0;
+}
+section{
+  padding: 0 72px;
+}
+.brand-name{
+  font-size: 30px;
+}
+
+// header
+header{
+  background-color: #FFCC00;
+  border-bottom: #D40511 solid 1px; 
+  padding: 0 72px;
+}
+.myNav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-icon{
+  border-right: #D40511 solid 1px;
+}
+.nav-icon-2 a{
+  color: #D40511;
+  padding: 0 10px;
+}
+.nav-icon a, .nav-icon-2{
+  color: #D40511;
+  padding: 0 10px;
+}
+.navbar{
+  max-width: 1200px;
+  height: 80px;
+  background-color: transparent !important;
+}
+// Section 1
+.section-1{
+  background-color: #FFCC00;
+}
+.banner{
+  text-align: center;
+  padding: 80px 0;
+}
+.banner > h5, h1{
+  margin: 0 0 20px 0;
+}
+.banner .btn{
+  margin: 0 10px;
+}
+// Section 2
+.section-2{
+  background-color: #FFCC00;
+}
+.services{
+  display: flex;
+  padding: 20px 0;
+}
+.what-we-do{
+  padding: 20px 0;
+}
+.prototyping, 
+.design-process, 
+.quality-control{
+  padding: 0 20px;
+}
+.prototyping a, 
+.design-process a, 
+.quality-control a{
+  color: #D40511;
+}
+.section-2 > :last-child{
+  border-bottom: #D40511 solid 2px;
+}
+// number with rounded border
+.number p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: #D40511 solid 1px;
+  border-radius: 50%;
+}
+// section-3
+.section-3{
+  background-color: #FFCC00;
+}
+.section-3 .row{
+  padding: 60px 0;
+}
+.section-3 i{
+  font-size: 50px;
+  color: #D40511;
+  margin-bottom: 30px;
+}
+// .section-4
+.section-4 .row{
+  padding: 40px 0;
+}
+.section-4 a{
+  text-decoration: none;
+  color: #D40511;
+}
+.section-4 .gallery{
+  display: block;
+}
+.gallery .image{
+  position: relative;
+  object-fit: cover;
+}
+.gallery .image img{
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+.gallery .number p{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 20px;
+  left: 20px;
+  color: white;
+  font-size: 30px;
+}
+.gallery h3, h6{
+  margin: 10px 0;
+}
+// section-5
+.section-5 .row{
+  padding: 60px 0;
+}
+.section-5 .company{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-5 .logo{
+  display: inline-block;
+}
+.logo img{
+  padding: 10px 5px;
+  width: 110px;
+  height: auto;
+}
+// section-6
+.section-6{
+  background-color: #FFCC00;
+  text-align: center;
+}
+.section-6 .team{
+  padding: 60px 0;
+}
+.section-6 .image{
+  object-fit: cover;
+}
+.image img{
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+// display flex
+.card-content{
+  padding: 20px 0;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+.social a{
+  font-size: 20px;
+  color: #D40511;
+  padding: 0 3px;
+}
+// Section 7
+.section-7{
+  background-color: #FFCC00;
+}
+.section-7 .row{
+  padding: 60px 0;
+}
+.section-7 .icon-row{
+  margin-top: 80px;
+  padding-top: 20px;
+  border-top: #D40511 solid 2px;
+}
+.section-7 .icon-text{
+  padding-bottom: 20px;
+}
+.section-7 .icon-text i{
+  color: #D40511;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.section-7 a{
+  text-decoration: none;
+  color: #D40511;
+}
+// Subscribe
+.section-8{
+  background-color: #FFCC00;
+}
+.section-8 .subscribe{
+  padding: 60px 0;
+}
+.section-8 .image{
+  object-fit: cover;
+}
+.section-8 .image img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.section-8 h3{
+  padding: 10px 0;
+}
+.section-8 .btn{
+  display: block;
+}
+.form [type=text]{
+  width: 100%;
+  height: 60px;
+  border-radius: 5px;
+  border: white solid 1px;
+  padding: 20px;
+  margin: 5px 0;
+}
+.form .btn{
+  margin: 20px 0;
+}
+.form a{
+  text-decoration: none;
+  color: #D40511;
+}
+// section-9
+.section-9{
+  text-align: center;
+}
+.section-9 .news{
+  padding: 60px 0;
+}
+.section-9 .blog-card{
+  padding: 20px 15px;
+}
+.section-9 a{
+  display: block;
+  text-decoration: none;
+  color: #D40511;
+  text-align: left;
+}
+.section-9 .date{
+  display: flex;
+  justify-content: space-between;
+}
+.section-9 h4{
+  padding: 10px 0;
+}
+.blog h6, h4{
+  color: black;
+}
+.section-9 .all-post{
+  text-align: center;
+  padding: 20px 0;
+}
+// Section 10
+.section-10 div{
+  padding-bottom: 30px;
+  text-align: center;
+}
+// Section 11
+.section-11 .footer{
+  padding: 60px 0;
+  background-color: #FFCC00;
+  text-align: center;
+  border-radius: 10px;
+}
+.footer .row{
+  text-align: left;
+  padding: 0 30px;
+}
+.footer h3, h5{
+  margin-bottom: 20px;
+}
+.footer a{
+  text-decoration: none;
+  color: #D40511;
+}
+.footer ul{
+  list-style: none;
+  padding: 0;
+}
+.footer .btn{
+  margin: 20px 0;
+}
+.footer .myColumn{
+  padding: 15px;
+}
+
+
+// for laptop screen
+@media screen and (max-width: 1024px){
+  // header
+  header{
+    padding: 0 30px;
+  }
+  // banner section
+  section{
+    padding: 0 51px;
+  }
+
+}
+
+// for tablet screen
+@media screen and (max-width: 768px){
+  // header
+  header{
+    padding: 0 23px;
+  }
+  // banner section
+  section{
+    padding: 0 38px;
+  }
+  // background color when toggle
+  .navbar-collapse{
+    background-color: #FFCC00;
+    }  
+
+}
+
+// for mobile screen
+@media screen and (max-width: 425px){
+  // header and banner
+  header, section{
+    padding: 0 21px;
+  }
+  // nav icons
+  .nav-icon{
+    display: none;
+    border-right: none;
+  }
+  // background color when toggle
+  .navbar-collapse{
+    background-color: #FFCC00;
+    }  
+}
